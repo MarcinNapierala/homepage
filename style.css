@@ -4,6 +4,8 @@ body {
 
 .mainHeader {
     color: darkslateblue;
+    top: 0;
+    margin-bottom: 10px;
     font-size: 42 px;
     font-family: Lato;
 }
@@ -13,7 +15,36 @@ body {
     font-family: Verdana;
 }
 
+.subTitle {
+    color: #3E6680
+}
+
+.link {
+    color: #027bce;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.aboutMe {
+    width: 700px;
+    padding: 70px 0px 0px 15px;
+}
+
+.top {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    box-sizing: border-box;
+    padding: 0px 35px 25px 35px;
+}
+
 p {
-    color: rgb(79, 47, 55);
+    color: #00487C;
     font-family: Arial, Helvetica, sans-serif;
 }
