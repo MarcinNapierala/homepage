@@ -2,6 +2,10 @@ body {
     background-color: #e2dfdf;
 }
 
+.main {
+    width: 800px;
+}
+
 .mainHeader {
     color: darkslateblue;
     top: 0;
